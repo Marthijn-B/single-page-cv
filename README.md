@@ -1,7 +1,6 @@
-A React CV Template APP with six different color schemes
+A React CV Template APP
 
-
-After cloning repository, just
+After cloning repository,
 
 - npm install / yarn install
 - npm start / yarn start
@@ -10,7 +9,7 @@ After cloning repository, just
 Sample Page
 []()
 
-##Credits
+Credits
 - [React](https://facebook.github.io/react/)
 - [Theme -  Xiaoying Riley - Orbit Theme](https://github.com/xriley/)
 - [Bootstrap](http://getbootstrap.com/)
