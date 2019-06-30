@@ -16,7 +16,7 @@ export default class LanguageDetails extends Component {
         <h2 className="container-block-title" key="lang_header">{this.props.title || 'Languages'}</h2>
         <ul className="list-unstyled interests-list" key="lang_list">
           {this.props.list.map((item, i) => {
-            return this.renderListItem(item, i);
+            return this.renderListItem(item, i)
           })}
         </ul>
       </div>
@@ -28,4 +28,3 @@ LanguageDetails.propTypes = {
   list: PropTypes.arrayOf(PropTypes.shape()).isRequired,
   title: PropTypes.string.isRequired
 };
-

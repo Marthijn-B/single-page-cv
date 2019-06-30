@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export default class LanguageDetails extends Component {
-  renderListItem(item) {
+  renderListItem(item,i) {
     return (
-      <li>
+      <li key={i}>
         {item}
       </li>
     );
@@ -14,8 +14,8 @@ export default class LanguageDetails extends Component {
       <div className="languages-container container-block">
         <h2 className="container-block-title">{this.props.title || 'Interests'}</h2>
         <ul className="list-unstyled interests-list">
-          {this.props.list.map((item) => {
-            return this.renderListItem(item);
+          {this.props.list.map((item,i) => {
+            return this.renderListItem(item,i);
           })}
         </ul>
       </div>
@@ -27,4 +27,3 @@ LanguageDetails.propTypes = {
   list: PropTypes.arrayOf(PropTypes.string).isRequired,
   title: PropTypes.string.isRequired
 };
-

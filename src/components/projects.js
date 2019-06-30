@@ -30,9 +30,9 @@ export default class Projects extends Component {
         <p dangerouslySetInnerHTML={{ __html: description }} />
       </div>);
   }
-  renderCategory(category) {
+  renderCategory(category,i) {
     return (
-      <div className="category-item">
+      <div className="category-item" key={i}>
         <h5>{category.name}</h5>
         <hr />
         {
@@ -58,8 +58,8 @@ export default class Projects extends Component {
         { this.renderIntro(description) }
         <div className="projects">
           {
-            categories.map((c) => {
-              return this.renderCategory(c);
+            categories.map((c,i) => {
+              return this.renderCategory(c,i);
             })
           }
         </div>
@@ -74,4 +74,3 @@ Projects.propTypes = {
   sectionTitle: PropTypes.string.isRequired,
   icon: PropTypes.string
 };
-
