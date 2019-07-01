@@ -5,13 +5,12 @@ export const experiences = {
   list: [
     {
       title: 'Technical Support and Tester',
-      company: 'Alpha Group / Objective',
-      description: ' ',
+      company: 'Alpha Group / Objective Corporation',
+      description: 'Providing support to regional councils and portal users.',
       companyLink: 'http://objective.com',
       companyShortDetail: '',
       date: '2018 - Present',
       points: [
-        'Providing support to regional councils and portal users.',
         'Developing and expanding service desk processes and procedures.',
         'Resolving problem tickets by working closely with end users.',
         'Ensuring excellent customer experience by addressing customer concerns, demonstrating empathy and resolving problems.',
@@ -25,12 +24,11 @@ export const experiences = {
     {
       title: 'Credit controller and field rep',
       company: 'DTR - Dominion Television Rentals',
-      description: 'Reviewed customer accounts for compliance with repayment obligations.',
-      companyLink: 'http://dtr.co.nz',
+      description: 'Reviewing customer accounts for compliance with repayment obligations.',
+      companyLink: 'https://www.dtr.co.nz/pages/about-dtr',
       companyShortDetail: '',
       date: '2011 - 2014, 2015-2016',
       points: [
-        'Reviewed customer accounts for compliance with repayment obligations.',
         'Contacted customers to check on payments and convey options.',
         'Kept all operations compliant with applicable regulations and up to date with company policies.',
         'Contacted customers to collect outstanding payments via one-time or negotiated instalment methods.',
@@ -44,8 +42,8 @@ export const experiences = {
     {
       title: 'Branch Manager',
       company: 'Home Direct',
-      description: '',
-      companyLink: 'http://homedirect.co.nz',
+      description: 'Managing a small team to service our area to increase sales and profit',
+      companyLink: 'https://www.homedirect.co.nz/About-Us.aspx',
       companyShortDetail: '',
       date: '2014 - 2015',
       points: [
@@ -63,8 +61,8 @@ export const experiences = {
     {
       title: 'Restaurant Manager',
       company: 'McDonalds Manawatu',
-      description: ' ',
-      companyLink: 'http://mcdonalds.co.nz',
+      description: 'Managing an effective store to deliver outstanding customer service and exceed company goals',
+      companyLink: 'https://mcdonalds.co.nz/about-maccas/organisation',
       companyShortDetail: ' ',
       date: '2002 - 2011',
       points: [

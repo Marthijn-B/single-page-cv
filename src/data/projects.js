@@ -1,15 +1,25 @@
 export const projects = {
   sectionTitle: '',
   icon: null,
-  description: 'Projects, i have completed & attended are listed below. To get general information about private project or not-finished projects you can get in touch.',
+  description: 'Projects I have completed & contributed are listed below.',
   categories: [
     {
       name: 'Capstone Project',
       list: [
         {
-          url: 'https://massey7wonders.herokuapp.com/home',
+          url: 'https://github.com/Massey-7-Wonders-project-team/Massey_Project_7_Wonders',
           title: '7 Wonders',
-          description: 'I am a member within a team of four students re-creating a board game into an online version'
+          description: 'A project in our final year of study re-creating a stategy board game into an online version'
+        }
+      ]
+    },
+    {
+      name: 'Online CV using React.js',
+      list: [
+        {
+          url: 'https://github.com/Marthijn-B/single-page-cv',
+          title: 'Single-page-cv',
+          description: 'This CV is created using React.js framework'
         }
       ]
     }

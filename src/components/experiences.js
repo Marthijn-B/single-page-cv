@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import Section from './shared/section';
 
 export default class Experiences extends Component {
-  constructor(props) {
+    constructor(props) {
     super(props);
     this.state = {
-      expand: false
+      expand: true
     };
     this.expandDetails = this.expandDetails.bind(this);
   }
@@ -42,22 +42,22 @@ export default class Experiences extends Component {
       </div>
     );
   }
+
   renderCompanySection(company, companyLink, companyShortDetail) {
     if (company && companyLink) {
       return (<div className="company"> <a href={companyLink} target="_blank">{company}</a> {companyShortDetail || ''}</div>);
     }
     return null;
   }
+
   renderExperiencePoints(points) {
     return (
       <div>
         {points.map((txt,i) => <li key={i}>{txt}</li>)}
       </div>
     )
-
-
-
   }
+
   renderPoint(point) {
     return <li>point</li>
   }
