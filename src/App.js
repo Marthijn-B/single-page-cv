@@ -5,11 +5,18 @@ import 'font-awesome/css/font-awesome.css';
 import './assets/theme/styles.css';
 import Section from './components/shared/section';
 import Sidebar from './components/sidebar';
+import Skills from './components/skills';
 import Experiences from './components/experiences';
 import Projects from './components/projects';
 import Tags from './components/tags';
 
 export default class CV extends Component {
+  renderSkillsSection() {
+    if (this.props.skills) {
+      return (<Skills {...this.props.skills} />);
+    }
+    return null;
+  }
   renderExperiencesSection() {
     if (this.props.experiences) {
       return (<Experiences {...this.props.experiences} />);
@@ -53,6 +60,7 @@ export default class CV extends Component {
         />
         <div className="main-wrapper">
           {this.renderCareerProfile()}
+          {this.renderSkillsSection()}
           {this.renderExperiencesSection()}
           {this.renderProjectsSection()}
           {this.renderTags()}
@@ -67,6 +75,7 @@ CV.propTypes = {
   profile: PropTypes.shape().isRequired,
   careerProfile: PropTypes.shape().isRequired,
   experiences: PropTypes.shape().isRequired,
+  skills: PropTypes.shape().isRequired,
   projects: PropTypes.shape().isRequired,
   tags: PropTypes.shape().isRequired
 };

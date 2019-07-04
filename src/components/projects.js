@@ -34,7 +34,6 @@ export default class Projects extends Component {
     return (
       <div className="category-item" key={i}>
         <h5>{category.name}</h5>
-        <hr />
         {
           category.list.map((item, i) => this.renderListItem(item, i))
         }
