@@ -2,9 +2,9 @@ A React CV Template APP
 
 After cloning repository,
 
-- npm install / yarn install
-- npm start / yarn start
-- npm build / yarn build
+- npm install
+- npm start
+- npm build
 
 Sample Page
 []()
