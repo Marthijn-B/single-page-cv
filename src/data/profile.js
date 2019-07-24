@@ -3,7 +3,7 @@ const profile = {
   title: 'Front End Developer',
   mail: 'marthijn.batlajeri@gmail.com',
   phoneNumber: '(021) 2747 227',
-  website: ' ',
+  website: 'marthijn-cv.herokuapp.com',
   linkedin: 'linkedin.com/in/marthijnbatlajeri',
   github: 'github.com/Marthijn-B',
   imagePath: 'profile.gif',
