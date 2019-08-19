@@ -13,7 +13,6 @@ export const tags = {
     'Git',
     'C#',
     'PHP',
-    'XAMARIN',
     'MYSQL']
 };
 
