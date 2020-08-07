@@ -6,7 +6,7 @@ export default class Experiences extends Component {
     constructor(props) {
     super(props);
     this.state = {
-      expand: true
+      expand: false
     };
     this.expandDetails = this.expandDetails.bind(this);
   }
