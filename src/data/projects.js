@@ -22,6 +22,16 @@ export const projects = {
           description: 'This CV is created using React.js framework'
         }
       ]
+    },
+    {
+      name: 'AlphaOne Support Helper',
+      list: [
+        {
+          url: 'https://github.com/Marthijn-B/alpha-react-links',
+          title: 'Alpha Support Console',
+          description: 'A React project to help consolidate all relative links to my role as AlphaOne Technical Support',
+        }
+      ]
     }
   ]
 };
