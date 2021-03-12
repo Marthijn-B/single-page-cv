@@ -19,7 +19,7 @@
     "promise": "8.0.2",
     "prop-types": "^15.6.0",
     "react": "^16.8.6",
-    "react-dev-utils": "^4.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "whatwg-fetch": "2.0.3",
     "autoprefixer": "9.2.1",
