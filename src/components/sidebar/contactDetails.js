@@ -26,9 +26,9 @@ export default class ContactDetails extends Component {
         <ul className="list-unstyled contact-list">
           {this.renderListItem('email', this.props.mail, 'fa-envelope', 'email')}
           {this.renderListItem('phone', this.props.phoneNumber, 'fa-phone', 'phone')}
-          {this.renderListItem('website', this.props.website, 'fa-globe', 'link')}
           {this.renderListItem('linkedin', this.props.linkedin, 'fa-linkedin', 'link')}
           {this.renderListItem('github', this.props.github, 'fa-github', 'link')}
+          {this.renderListItem('website', this.props.website, 'fa-globe', 'link')}
           {this.renderListItem('twitter', this.props.twitter, 'fa-twitter', 'link')}
         </ul>
       </div>

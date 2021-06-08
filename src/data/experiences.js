@@ -4,9 +4,23 @@ export const experiences = {
   description: null,
   list: [
     {
+      title: 'Software Development (Boomerang Program)',
+      company: "Objective Corporation",
+      description: 'Creating additional functionality to the new Objective Trapeze Licensing Portal',
+      companyLink: 'https://www.objective.com/products/objective-trapeze',
+      companyShortDetail: '',
+      date: 'Feburary 2021',
+      points: [
+        'Using React.js framework consuming REST/APIs',
+        'Team collaboration towards a common goal', 
+        'Git Version control and managing conflicts',
+        'Integrating unit testing on new functions and classes',
+      ]
+    },
+    {
       title: 'Technical Support and Tester',
       company: 'Alpha Group / Objective Corporation',
-      description: 'Providing support to regional councils and portal users.',
+      description: 'Providing product support to regional councils and applicants for the Objective Alpha building consent system.',
       companyLink: 'http://objective.com',
       companyShortDetail: '',
       date: '2018 - Present',
